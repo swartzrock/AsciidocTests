@@ -1,0 +1,130 @@
+Asciidoc Cheatsheet
+====================
+:author:        the author
+:email:         author@somewhere.com
+:revdate:       March 14, 2013
+:doctype:       book
+:description:   the description of your +
+                document can go here
+:constant1:     your own constants, referenced with braces 
+:language:      <default language for source blocks>
+:stylesdir:     css
+
+  
+
+
+== Headings
+
+== Heading 1
+An example of Heading 1
+
+=== Heading 2
+An example of Heading 2
+
+==== Heading 3
+An example of Heading 3
+
+===== Heading 4
+An example of Heading 4
+
+
+
+
+== Paragraphs
+
+
+.Paragraph Title
+Paragraph Contents.
+
+line break:
+
+''''
+
+
+
+== Links
+
+[[anchor-1]]
+I use http://github.com all the time, http://github.com[GitHub] is great. 
+Know the octocat image:blacktocat-32.png[]
+
+<<anchor-1,See the part about GitHub>>
+
+
+
+== Basic Formatting
+
+.Text Styles
+
+normal, _italic_, *bold*, +mono+.
+
+``double quoted'', `single quoted'.
+
+normal, ^super^, ~sub~.
+
+
+
+.Special
+
+(C) (R) (TM) -- ... -> <- => <= &#182;
+
+TIP: Here's a tip for you
+
+
+.Source
+
+Inline `source` formatting 
+
+[source,scala]
+-----
+println("Hello, Scala")
+-----
+
+
+== Organization
+
+
+.Unordered Lists
+
+* this
+* that
+
+.Ordered Lists
+. first
+. then this
+.. don't forget this
+. then that
+
+
+.A Sidebar
+****
+Here is the sidebar
+****
+
+.Blockquote
+[caption="Here's Your Caption: "]
+====================
+Well, here's the block quote
+====================
+
+
+ 
+== Comments
+
+// Yes this is true
+Line comment with //
+
+
+Range comment with //// to ////
+////
+you can't read
+this
+////
+
+
+
+== Tables
+
+hmm maybe later
+
+
