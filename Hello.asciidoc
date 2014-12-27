@@ -46,7 +46,6 @@ line break:
 
 [[anchor-1]]
 I use http://github.com all the time, http://github.com[GitHub] is great. 
-Know the octocat image:blacktocat-32.png[]
 
 <<anchor-1,See the part about GitHub>>
 
@@ -106,6 +105,19 @@ Here is the sidebar
 ====================
 Well, here's the block quote
 ====================
+
+
+## Asciidoctor speaks Markdown
+
+> Did you here that Asciidoctor understands how to parse basic Markdown?
+
+You bet I did!
+
+
+[sidebar#audience.text-justify]
+--
+This content appears in a sidebar with id "audience" and justified text.
+--
 
 
  
